@@ -1,0 +1,10 @@
+name: workflow demo
+on:
+  workflow_call:
+
+jobs:
+  build-flow:
+    runs-on: ubuntu-latest
+    - name: echoing
+      run: |
+            echo "hello"
